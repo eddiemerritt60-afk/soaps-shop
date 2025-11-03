@@ -1,0 +1,1 @@
+YAML: yml: name: Deploy on: push jobs: deploy: runs-on: ubuntu-latest steps:- uses: netlify/actions/checkout@v3 - uses: netlify/actions/cli@master with args: deploy --prod
